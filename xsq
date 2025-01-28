@@ -13,4 +13,7 @@ if [ -e $DIR/env/hdf5/lib ]; then
 fi
 
 export PYTHONPATH="$DIR"
+
+echo $PYTHONPATH
+
 $DIR/xsqutils/xsq.py "$@"
