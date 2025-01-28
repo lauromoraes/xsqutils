@@ -18,7 +18,7 @@ fi
 
 . env/bin/activate
 
-pip install numpy
-pip install cython
-pip install numexpr
-pip install tables==2.3.1
+# pip install numpy
+# pip install cython
+# pip install numexpr
+# pip install tables==2.3.1
